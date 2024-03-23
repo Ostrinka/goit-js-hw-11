@@ -24,8 +24,8 @@ button.addEventListener('click', event => {
   loaderOpen();
   gallery.innerHTML = '';
   setTimeout(() => {
-    inputUser = inputForm.value.trim();
-    checkInput();
+  inputUser = inputForm.value.trim();
+  checkInput();
   }, 1000);
 });
 
@@ -59,6 +59,6 @@ function loaderOpen() {
 }
 
 function loaderDel() {                          
-  const loaderOpen = document.querySelector('.loader');
-  loaderOpen.remove();
+  const loader = document.querySelector('.loader');
+  loader.remove();
 }
