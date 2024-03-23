@@ -14,10 +14,10 @@ export function renderPhotos(images) {
             />
           </a>
           <ul class="gallery-description">
-            <li><h3>Likes</h3><p>${image.likes}</p></li>
-            <li><h3>Views</h3><p>${image.views}</p></li>
-            <li><h3>Comments</h3><p>${image.comments}</p></li>
-            <li><h3>Downloads</h3><p>${image.downloads}</p></li>
+            <li><h3 class="image-title">Likes</h3><p class="image-description">${image.likes}</p></li>
+            <li><h3 class="image-title">Views</h3><p class="image-description">${image.views}</p></li>
+            <li><h3 class="image-title">Comments</h3><p class="image-description">${image.comments}</p></li>
+            <li><h3 class="image-title">Downloads</h3><p class="image-description">${image.downloads}</p></li>
           </ul>
         </li>`;
     })

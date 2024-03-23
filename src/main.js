@@ -39,7 +39,7 @@ function checkInput() {
           position: 'topRight',
         });
       } else if (images.length === 0) {
-        iziToast.show({
+        iziToast.error({
           color: '#EF4040',
           message: `Sorry, there are no images matching your search query. Please try again!`,
           position: 'topRight',
