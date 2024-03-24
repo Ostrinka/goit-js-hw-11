@@ -59,6 +59,7 @@
 .input-form:focus {
   outline: none;
   border: 1px solid #4E75FF;
+  background-color:#fff;
 }
 
 .input-form::placeholder {
